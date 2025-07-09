@@ -3,7 +3,7 @@
 
 ---
 ### Contact information:
-* Phone: +7 985 3501854
+* Phone: +7(985)350-18-54
 * E-mail: miagkaia.e@gmail.com
 * Telegram: @lena_miagkaia
 
