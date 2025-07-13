@@ -190,7 +190,12 @@ body {
 .main__content {
 	display: flex;
 	gap: 0.5rem
+}
 
+@media (max-width: 768px) {
+	.main__content{
+		flex-direction: column;
+	}
 }
 
 .main__column_left {
@@ -217,7 +222,11 @@ body {
 	display: flex;
    align-items: center;
    gap: 1rem;
-	margin-bottom: 0.5rem;
+	margin-bottom: 1rem;
+}
+
+.skills__item:last-child {
+	margin-bottom: 0;
 }
 
 .checkmark {
@@ -239,7 +248,11 @@ body {
 }
 
 .courses__list {
-	margin-bottom: 2rem;
+	margin-bottom: 5rem;
+}
+
+.courses__list:last-child{
+	margin-bottom: 1.5rem;
 }
 
 .courses__item {
@@ -249,10 +262,42 @@ body {
    margin-bottom: 1rem;
 }
 
+.courses__item:last-child {
+	margin-bottom: 0;
+}
+
+.courses__item a {
+	color: #636180;
+}
+
+/* правая колонка */
 .main__column_right {
 	min-width: 0;
    word-wrap: break-word;
 }
+
+/* summary */
+.summary__text {
+	line-height: 110%;
+	margin-bottom: 0.5rem;
+}
+
+.summary__text:last-child {
+	margin-bottom: 0;
+}
+
+/* code */
+.code-example__code {
+	background-color: #ede8ec;
+	overflow-x: auto; /* Горизонтальная прокрутка для длинных строк */
+}
+
+.code-example__code code {
+	font-size: 1.5rem;
+}
+
+/* project */
+
 
 .footer {
 	display: flex;
