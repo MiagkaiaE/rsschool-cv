@@ -42,7 +42,6 @@ img{vertical-align: top;}
 h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
 
 /* центрируем */
-
 body {
 	font-family: Georgia, 'Times New Roman', Times, serif;
 	font-size: 1.6rem;
@@ -114,10 +113,6 @@ body {
 	border-radius: 50%;
 }
 
-.intro__info {
-	
-}
-
 .intro__name {
 	font-size: 3.6rem;
 	margin-bottom: 0.5rem;
@@ -127,10 +122,6 @@ body {
 	font-size: 2.4rem;
 	text-decoration: underline;
 	margin-bottom: 2rem;
-}
-
-.contact {
-	
 }
 
 /* скрываем заголовок */
@@ -208,10 +199,6 @@ body {
 	font-size: 2rem;
 	color: #ffff;
 	background-color: #77759c;
-}
-
-.skills__list {
-	
 }
 
 .main__section {
