@@ -44,21 +44,55 @@ h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
 /* центрируем */
 
 body {
+	font-family: Georgia, 'Times New Roman', Times, serif;
 	font-size: 1.8rem;
 }
+
 .wrapper {
-    max-width: 120rem;
-    margin: 0 auto;
-    padding: 0 1rem;
+   max-width: 120rem;
+   margin: 0 auto;
+   padding: 0 1rem;
 }
 
 /* header */
 .header {
-    padding: 1.5rem 2rem;
-    background-color: #C0BBBF;
+	padding: 0 2rem;
+   background-color: #ede8ec;
 }
 
 .header__nav-list {
 	display: flex;
 	justify-content: space-between;
+}
+
+.header__nav-item {
+	font-size: 2rem;
+	padding: 1.5rem;
+}
+
+.header__nav-item a {
+	color: inherit;
+}
+
+.header__nav-item:hover {
+	color: #ffff;
+	background-color: #77759c;
+}
+
+/* медиа запрос */
+@media (max-width: 768px) {
+	.header {
+		padding: 0;
+	}
+
+	.header__nav-list {
+		flex-direction: column;
+		align-items: center;
+		gap: 1rem;
+	}
+
+	.header__nav-item {
+		width: 100%;
+		text-align: center;
+	}
 }
