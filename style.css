@@ -103,12 +103,9 @@ body {
 	align-items: center;
 	gap: 3rem;
 	margin: 1.5rem 0;
+	padding: 0.5rem;
 	border: 4px solid #77759c;
 	
-}
-
-.intro__photo {
-	padding: 0.5rem;
 }
 
 .intro__photo img {
