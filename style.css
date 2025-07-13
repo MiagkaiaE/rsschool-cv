@@ -297,8 +297,52 @@ body {
 }
 
 /* project */
+.projects__item{
+	text-align: center;
+}
 
+.projects__image{
+	margin-bottom: 1.5rem;
+}
 
+.projects__nav {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 3rem;
+}
+
+.projects__arrow {
+	width: 2.5rem;
+	height: 2.5rem;
+	cursor: pointer;
+	transition: transform 0.3s ease;
+}
+
+.projects__arrow:hover {
+   transform: scale(1.1);
+}
+
+.project__links {
+	display: flex;
+	gap: 1.5rem;
+} 
+
+.projects__link {
+	padding: 0.5rem 1rem;
+	border: 1px solid #77759c;
+	border-radius: 0.5rem;
+	font-size: 1.3rem;
+	color: #ffff;
+	background-color: #77759c;
+	transition: transform 0.3s ease;
+}
+
+.projects__link:hover{
+	transform: scale(1.1);
+}
+
+/* footer */
 .footer {
 	display: flex;
 	justify-content: space-between;
