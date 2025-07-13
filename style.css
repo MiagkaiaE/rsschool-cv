@@ -45,7 +45,7 @@ h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
 
 body {
 	font-family: Georgia, 'Times New Roman', Times, serif;
-	font-size: 1.8rem;
+	font-size: 1.6rem;
 }
 
 .wrapper {
@@ -228,8 +228,18 @@ body {
 	stroke-width: 3;
 }
 
+.courses__title {
+	font-size: 1.8rem;
+	margin-bottom: 0.5rem;
+}
+
+.courses__list {
+	margin-bottom: 2rem;
+}
+
 .main__column_right {
-	
+	min-width: 0;
+   word-wrap: break-word;
 }
 
 .footer {
