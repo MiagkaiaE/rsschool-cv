@@ -66,8 +66,8 @@ body {
 }
 
 .header__nav-item {
-	font-size: 2rem;
 	padding: 1.5rem;
+	font-size: 2rem;
 }
 
 .header__nav-item a {
@@ -96,3 +96,11 @@ body {
 		text-align: center;
 	}
 }
+
+/* intro */
+.intro {
+	display: flex;
+	align-items: center;
+}
+
+
