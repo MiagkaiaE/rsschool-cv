@@ -184,14 +184,17 @@ body {
 
 /* main*/
 .main {
-	
+	margin-bottom: 0.5rem ;
 }
 
 .main__content {
 	display: flex;
+	gap: 0.5rem
+
 }
 
 .main__column_left {
+	flex: 0 0 35%;
 	background-color: #ede8ec;
 }
 
@@ -200,15 +203,39 @@ body {
 	font-size: 2rem;
 	color: #ffff;
 	background-color: #77759c;
+}
+
+.skills__list {
 	
 }
+
+.main__section {
+	padding: 2rem;
+}
+
+.skills__item {
+	margin-bottom: 1rem;
+}
+
 .checkmark {
 	width: 20px;
 	height: 20px;
-	fill: #77759c; /* Цвет заливки круга */
-	}
-	.checkmark path.check {
+	fill: #77759c;
+}
+.checkmark path.check {
 	fill: none;
-	stroke: white; /* Цвет галочки */
-	stroke-width: 3; /* Толщина линий галочки */
-	}
+	stroke: white;
+	stroke-width: 3;
+}
+
+.main__column_right {
+	
+}
+
+.footer {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 1.5rem;
+	background-color: #ede8ec;
+}

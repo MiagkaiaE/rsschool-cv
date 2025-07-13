@@ -59,7 +59,7 @@
 				<div class="main__column main__column_left">
 					<section class="skills" id="skills">
                	<h3 class="skills__title main__title">Skills</h3>
-               	<ul class="skills__list">
+               	<ul class="skills__list main__section">
                   	<li class="skills__item">
 								<svg class="checkmark" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
 									<!-- Круг -->
@@ -98,9 +98,35 @@
 							</li>
                 	</ul>
             	</section>
-            	<section class="projects" id="projects">
+					<section class="courses" id="courses">
+                	<h3 class="courses__title main__title">Courses</h3>
+                	<ul class="courses__list main__section">
+                    	<li class="courses__item"><a href="https://stepik.org/180784">Introduction to JavaScript</a></li>
+                    	<li class="courses__item"><a href="https://stepik.org/38218">Web Development Basics</a></li>
+                	</ul>
+            	</section>
+        		</div>
+        		<div class="main__column main__column_right">
+            	<section class="summary" id="summary">
+                	<h3 class="summary__title main__title">Summary</h3>
+                	<p class="summary__text main__section">As an aspiring Front-End Developer, I am passionate about creating user-friendly and visually appealing web applications. My goal is to contribute to innovative projects by leveraging my strong learning ability and enthusiasm for mastering modern web technologies like HTML, CSS, and JavaScript. I prioritize continuous growth, collaboration, and delivering high-quality solutions. With a proactive mindset, I am eager to dive into new challenges, quickly adapt to emerging technologies, and build a strong foundation in front-end development.</p>
+            	</section>
+            	<section class="code-example" id="code">
+                	<h3 class="code-example__title main__title">Code Example</h3>
+                	<pre class="code-example__code main__section">
+                    <code>
+const accordionButtons = document.querySelectorAll('.accordion-item');
+for (let button of accordionButtons) {
+	button.addEventListener('click', () => {
+		button.parentElement.classList.toggle('active');
+	});
+}
+                    </code>
+                	</pre>
+            	</section>
+					<section class="projects" id="projects">
     					<h3 class="projects__title main__title">Projects</h3>
-    					<div class="projects__item">
+    					<div class="projects__item main__section">
         					<!-- <div class="projects__arrows">
                        <div class="projects__arrow projects__arrow_left"></div>
                        <div class="projects__arrow projects__arrow_right"></div>
@@ -114,33 +140,6 @@
         					</div>
     					</div>
 					</section>
-        		</div>
-        		<div class="main__column main__column_right">
-            	<section class="summary" id="summary">
-                	<h3 class="summary__title main__title">Summary</h3>
-                	<hr class="summary__divider">
-                	<p class="summary__text">As an aspiring Front-End Developer, I am passionate about creating user-friendly and visually appealing web applications. My goal is to contribute to innovative projects by leveraging my strong learning ability and enthusiasm for mastering modern web technologies like HTML, CSS, and JavaScript.</p>
-            	</section>
-            	<section class="courses" id="courses">
-                	<h3 class="courses__title main__title">Courses</h3>
-                	<ul class="courses__list">
-                    	<li class="courses__item"><a href="https://stepik.org/180784">Introduction to JavaScript</a></li>
-                    	<li class="courses__item"><a href="https://stepik.org/38218">Web Development Basics</a></li>
-                	</ul>
-            	</section>
-            	<section class="code-example" id="code">
-                	<h3 class="code-example__title main__title">Code Example</h3>
-                	<pre class="code-example__code">
-                    <code>
-const accordionButtons = document.querySelectorAll('.accordion-item');
-for (let button of accordionButtons) {
-	button.addEventListener('click', () => {
-		button.parentElement.classList.toggle('active');
-	});
-}
-                    </code>
-                	</pre>
-            	</section>
         		</div>
 			</div>
 		</main>
