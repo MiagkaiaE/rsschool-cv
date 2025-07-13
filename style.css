@@ -181,3 +181,12 @@ body {
 		align-self: flex-start;
 	}
 }
+
+/* main*/
+.main {
+	padding: 2rem;
+}
+
+.main__content {
+	display: flex;
+}
