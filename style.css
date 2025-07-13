@@ -101,6 +101,86 @@ body {
 .intro {
 	display: flex;
 	align-items: center;
+	gap: 3rem;
+	margin: 1.5rem 0;
+	border: 4px solid #77759c;
+	
 }
 
+.intro__photo {
+	padding: 0.5rem;
+}
 
+.intro__photo img {
+	width: 40rem;
+	height: 40rem;
+	border-radius: 50%;
+}
+
+.intro__info {
+	
+}
+
+.intro__name {
+	font-size: 3.6rem;
+	margin-bottom: 0.5rem;
+}
+
+.intro__title {
+	font-size: 2.4rem;
+	text-decoration: underline;
+	margin-bottom: 2rem;
+}
+
+.contact {
+	
+}
+
+/* скрываем заголовок */
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.contact__list {
+	display: flex;
+	flex-direction: column;
+	gap: 0.5rem;
+}
+
+.contact__description {
+	display: flex;
+	align-items: center;
+	gap: 1rem;
+	margin-bottom: 0.5rem;
+}
+
+@media (max-width: 768px) {
+   .intro {
+        flex-direction: column;
+        text-align: center;
+		  gap: 1rem;
+		  padding: 0.5rem;
+   }
+
+	.intro__photo {
+		margin-bottom: 1.5rem;
+	}
+
+	.intro__photo img {
+		width: 20rem;
+		height: 20rem;
+	}
+
+	.contact__item {
+		align-self: flex-start;
+	}
+}
