@@ -214,13 +214,18 @@ body {
 }
 
 .skills__item {
-	margin-bottom: 1rem;
+	display: flex;
+   align-items: center;
+   gap: 1rem;
+	margin-bottom: 0.5rem;
 }
 
 .checkmark {
-	width: 20px;
-	height: 20px;
+	width: 1.5rem;
+	height: 1.5rem;
 	fill: #77759c;
+	flex-shrink: 0; /* Предотвращает сжатие svg*/
+	vertical-align: middle;
 }
 .checkmark path.check {
 	fill: none;
@@ -230,11 +235,18 @@ body {
 
 .courses__title {
 	font-size: 1.8rem;
-	margin-bottom: 0.5rem;
+	margin-bottom: 1rem;
 }
 
 .courses__list {
 	margin-bottom: 2rem;
+}
+
+.courses__item {
+	display: flex;
+   align-items: center;
+   gap: 1rem;
+   margin-bottom: 1rem;
 }
 
 .main__column_right {
